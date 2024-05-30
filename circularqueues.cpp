@@ -111,11 +111,27 @@ int main() {
                 break;
                 
             }
-            case '2:' {
+            case '2': {
                 q.remove();
+                break;
+            }
+            case '3': {
+                q.display();
+                break;
+            }
+            case '4': {
+                return 0;
+            }
+            case '5': {
+                cout << "invalid option!!" << endl;
                 break;
             }
             }
         }
+        catch (exception& e) {
+            cout << "chechk for the values entered." << endl;
+        }
     }
+    
+    return 0;
 }
