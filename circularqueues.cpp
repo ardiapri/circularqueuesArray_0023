@@ -84,6 +84,12 @@ public:
                 cout << queue_array[FRONT_position] << " ";
                 FRONT_position++;
             }
+            cout << endl;
         }
     }
 };
+
+int main() {
+    queues q;
+    char ch;
+}
